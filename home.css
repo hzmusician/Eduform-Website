@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Comfortaa:wght@300&family=Klee+One&family=Orbitron&family=Oswald:wght@200&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Comfortaa:wght@300&family=Klee+One&family=Orbitron&family=Oswald:wght@200&family=Roboto:wght@100&family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 665px;
+    background: url(homeback.jpg);
+}
+.navbar ul{
+    position: relative;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    margin: 15px;
+    color: white;
+    position: relative;
+    left: 800px;
+    top: -120px;
+    font-family: roboto;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    text-decoration: overline;
+    color: rgba(241, 10, 10, 0.575);
+    margin: 25px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#eduform{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    top: -100px;
+    font-size: 30px;
+    font-family: "bungee hairline";
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.center{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    color: white;
+    font-size: 50px;
+    user-select: none;
+}
+#welcome{
+    font-family: roboto;
+}
+#centereduform{
+    font-family: sans-serif;
+}
+#aciklama{
+    text-align: center;
+    margin: 40px;
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 25px;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.student1text{
+    margin: 20px;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    float: right;
+    right: 70px;
+    top: 70px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(142, 238, 255, 0.7);
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+    transition: 0.3s;
+    user-select: none;
+}
+.student1text:hover{
+    transform: scale(1.1);
+    box-shadow: 20px;
+    box-shadow: 10px 10px 10px;
+}
+#internet{
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+    opacity: 1;
+    color: black;
+}
+.student2text{
+    margin: 20px;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    float: right;
+    right: 90px;
+    top: 70px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(255, 143, 143, 0.7);
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+    transition: 0.3s;
+    user-select: none;
+}
+.student2text:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+}
+#library{
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+}
+.student3text{
+    margin: 20px;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    float: right;
+    right: 110px;
+    top: 70px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(154, 255, 107, 0.7);
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;
+    transition: 0.3s;
+    user-select: none;
+}
+.student3text:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+}
+#class{
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+}
+.binatitle{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: roboto;
+    margin: 20px;
+}
+.builds{
+    float: left;
+    position: relative;
+    left: 25.7%;
+}
+.bina1{
+    width: 170px;
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#berlin{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    font-family: oswald;
+    font-size: 25px;
+    display: none;
+    transition: 0.5s;
+    user-select: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bolder;
+}
+.bina1:hover{
+    opacity: 0.5;
+    box-shadow: 10px 10px 10px black;
+}
+.bina1:hover + #berlin{
+    display: block; 
+}
+.bina2{
+    width: 170px;
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#london{
+    position: absolute;
+    top: 150px;
+    left: 280px;
+    font-family: oswald;
+    font-size: 25px;
+    display: none;
+    transition: 0.5s;
+    user-select: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+.bina2:hover{
+    opacity: 0.5;
+    box-shadow: 10px 10px 10px black;
+}
+.bina2:hover + #london{
+    display: block; 
+}
+.bina3{
+    width: 170px;
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#paris{
+    position: absolute;
+    top: 150px;
+    left: 510px;
+    font-family: oswald;
+    font-size: 25px;
+    display: none;
+    transition: 0.5s;
+    user-select: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+.bina3:hover{
+    opacity: 0.5;
+    box-shadow: 10px 10px 10px black;
+}
+.bina3:hover + #paris{
+    display: block; 
+}
+.activite{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+}
+.activity{
+    font-family: oswald;
+    font-size: 45px;
+    position: relative;
+    top: 440px;
+    left: -450px;
+    text-align:justify;
+    color: white;
+    background-color: rgba(165, 42, 42, 0.507);
+    border-radius: 20px;
+}
+.voley{
+    float: right;
+    width: 350px;
+    height: auto;
+    margin: 20px;
+    position: relative;
+    top: 450px;
+    right: 150px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px #111;
+}
+.voleyball{
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+    top: 500px;
+    right: 105px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+}
+.books{
+    float: left;
+    width: 350px;
+    height: auto;
+    margin: 20px;
+    position: relative;
+    top: 450px;
+    left: -500px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px #111;
+}
+.book{
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+    top: 650px;
+    left: -110px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+}
+.guitar{
+    float: right;
+    width: 350px;
+    height: auto;
+    margin: 20px;
+    position: relative;
+    top: 450px;
+    right: 150px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px #111;
+}
+.gitar{
+    margin: 20px;
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+    top: 760px;
+    right: 500px;
+    color: white;
+    font-weight: bold;
+}
+hr{
+    opacity: 0;
+}
+#hr{
+    opacity: 1;
+}
+.history{
+    float: center;
+    background: url(chair.png);
+}
+.velet{
+    width: 1000px;
+    height: auto;
+    position: relative;
+    top: 530px;
+    left: 150px;
+    box-shadow: 2px 5px 5px 5px;
+}
+#tarih1{
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.682);
+    background-color: rgba(123, 229, 255, 0.733);
+    border-radius: 10px;
+    user-select: none;
+    transition: 0.5s;
+}
+#tarih1:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px;
+    background-color: rgba(228, 228, 228, 0.871);
+    color: rgb(75, 75, 75);
+}
+#tarih2{
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: -200px;
+    left: 930px;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.682);
+    background-color: rgba(121, 255, 109, 0.774);
+    border-radius: 10px;
+    user-select: none;
+    transition: 0.5s;
+}
+#tarih2:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px;
+    background-color: rgba(228, 228, 228, 0.871);
+    color: rgb(75, 75, 75);
+}
+#tarih3{
+    padding: 10px;
+    width: 300px;
+    height: 80px;
+    position: relative;
+    top: 0px;
+    left: 930px;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.682);
+    background-color: rgba(250, 136, 136, 0.795);
+    border-radius: 10px;
+    user-select: none;
+    transition: 0.5s;
+}
+#tarih3:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px;
+    background-color: rgba(228, 228, 228, 0.871);
+    color: rgb(75, 75, 75);
+}
+#tarih4{
+    padding: 10px;
+    width: 300px;
+    height: 140px;
+    position: relative;
+    top: 0px;
+    left: 100px;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.682);
+    background-color: rgba(250, 250, 98, 0.834);
+    border-radius: 10px;
+    user-select: none;
+    transition: 0.5s;
+}
+#tarih4:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px;
+    background-color: rgba(228, 228, 228, 0.871);
+    color: rgb(75, 75, 75);
+}
+.bosluk{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+    color: white;
+    user-select: none;
+}

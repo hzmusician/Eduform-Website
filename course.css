@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Comfortaa:wght@300&family=Klee+One&family=Orbitron&family=Oswald:wght@200&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Comfortaa:wght@300&family=Klee+One&family=Orbitron&family=Oswald:wght@200&family=Roboto:wght@100&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Comfortaa:wght@300&family=Klee+One&family=Lato:wght@300&family=Orbitron&family=Oswald:wght@200&family=Roboto:wght@100&family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 125px;
+    background: url(mezuniyet.jpg);
+    background-size: 100%;
+}
+.navbar ul{
+    position: relative;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    margin: 15px;
+    color: white;
+    position: relative;
+    left: 800px;
+    top: -120px;
+    font-family: roboto;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    text-decoration: overline;
+    color: rgba(241, 10, 10, 0.575);
+    margin: 25px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#eduform{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    top: -100px;
+    font-size: 30px;
+    font-family: "bungee hairline";
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.course{
+    width: 90%;
+    height: 550px;
+    border-radius: 30px;
+    background: url(courseback.jpg);
+    background-size: 100%;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+.erkek{
+    margin: 20px;
+    width: 200px;
+    border-radius: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.erkek:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+.erkektext{
+    width: 150px;
+    height: 75px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -120px;
+    font-family: roboto;
+}
+.erkek2{
+    margin: 20px;
+    width: 200px;
+    border-radius: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+    float: right;
+}
+.erkek2:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+.erkektext2{
+    width: 150px;
+    height: 75px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -120px;
+    left: 370px;
+    font-family: roboto;
+}
+.kadın{
+    margin: 20px;
+    width: 200px;
+    border-radius: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+    position: relative;
+    top: 300px;
+    left: -570px;
+}
+.kadın:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+.kadıntext{
+    width: 150px;
+    height: 75px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 190px;
+    left: -570px;
+    font-family: roboto;
+}
+.kadın2{
+    margin: 20px;
+    width: 200px;
+    border-radius: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+    position: relative;
+    top: 60px;
+    left: 860px;
+}
+.kadın2:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+.kadıntext2{
+    width: 150px;
+    height: 75px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -55px;
+    left: 470px;
+    font-family: roboto;
+}
+.yorum{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 219, 219);
+    position: relative;
+    top: 150px;
+    left: 60px;
+    border-radius: 30px;
+}
+.velet{
+    margin: 20px;
+    width: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 60px;
+}
+.star{
+    width: 150px;
+    position: relative;
+    left: 80px;
+}
+.cumle{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.yorum2{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(181, 251, 255);
+    position: relative;
+    top: -250px;
+    left: 510px;
+    border-radius: 30px;
+}
+.velet2{
+    margin: 20px;
+    width: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 60px;
+}
+.star3{
+    width: 150px;
+    position: relative;
+    left: 80px;
+}
+.cumle2{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.yorum3{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(190, 252, 166);
+    position: relative;
+    top: -650px;
+    left: 940px;
+    border-radius: 30px;
+}
+.velet3{
+    margin: 20px;
+    width: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 60px;
+}
+.star2{
+    width: 150px;
+    position: relative;
+    left: 80px;
+}
+.cumle3{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.kurs{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: -550px;
+    text-align: center;
+    background: url(üni.jpg);
+    border-radius: 30px;
+}
+#kursbaslik{
+    font-size: 65px;
+    font-family: sans-serif;
+    color: white;
+    line-height: 350px;
+    transition: 0.5s;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+#kursbaslik:hover{
+    transform: scale(1.2);
+    transform: translateX(50px);
+}
